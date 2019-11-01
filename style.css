@@ -1,0 +1,49 @@
+h1 {
+	color: red;
+	text-shadow: 0 0 5px blue;
+	background: rgba(255, 255, 255, 0.2);
+	padding: 20px;
+	border-color: solid red;
+	border-style: solid;
+	border-radius: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+body {
+	background: rgba(20, 20, 25, 1);
+	color: white;
+	letter-spacing: 0.05em;
+}
+
+td {
+	border: 3px solid white;
+	padding: 10px;
+	background: rgba(100, 100, 100, 0.6);
+	font-size: 150%;
+	text-shadow: 1px 1px white;
+	text-align: center;
+}
+
+td:hover {
+	background-color: darkred;
+	width: 50px;
+	height: 50px;
+	transition: 0.2s;
+}
+
+th {
+	border: 3px solid white;
+	padding: 10px;
+	background: rgba(220, 220, 220, 1);
+	font-size: 150%;
+	width: 50px;
+	height: 50px;
+	color: black;
+	box-shadow: 0 0 10px black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
